@@ -6,6 +6,7 @@
 
 html {
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -192,7 +193,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #1a9be6, #1a57e6);
+    background: linear-gradient(135deg, #46596e, #364f6b);
     z-index: -1;
   }
   .card:hover .front {
@@ -203,7 +204,7 @@ body {
   }
   
   .back {
-    background: #fff;
+    background: #75a3d6;
     transform: rotateY(-180deg);
     padding: 0 2em;
   }
@@ -308,7 +309,6 @@ body {
   height: 260px;
   width: 260px;
   border-radius: 50%;
-  filter: grayscale(100%);
   cursor: pointer;
   transition: 400ms;
 }
@@ -390,17 +390,27 @@ body {
 
 /******************** Testimonials ********************/
 
-.testimonials {
-  background-color: #364f6b;
-}
-
 #testimonials {
-  color: #fff;
+  background-color: #364f6b;
+  text-align: center;
   margin-top: 100px;
 }
 
-.carousel-img {
-  height: 200px;
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 /******************** Footer ********************/
